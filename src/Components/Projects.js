@@ -7,7 +7,6 @@ import Tools from '../images/17Tools.png';
 import Web from '../images/WebTechnologies.png';
 import Social from '../images/SocialMedia.png';
 import Code from '../images/Code.png';
-import Plus from '../images/plus.png';
 
 class Projects extends Component {
   render(){
@@ -23,7 +22,7 @@ class Projects extends Component {
             {project: Web,
               description: 'HTML | CSS', 
               path: '1',
-              alt: 'Webtheclogies Project'},
+              alt: 'Webthecnologies Project'},
               {project: Social,
                 description: 'HTML | CSS', 
                 path: '1',
@@ -54,7 +53,7 @@ class Projects extends Component {
                   <span>
                   {cell.description}
                   </span>
-                  <div className="icon__plus"><img src={Plus} alt="See more"/></div>
+                  
                 </div>
                 
               </a>

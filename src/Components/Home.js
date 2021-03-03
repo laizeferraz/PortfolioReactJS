@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import Header from './Header';
-import Button from './Button';
+import Sidebar from './Sidebar';
+import Arrow from './Arrow';
 import Projects from './Projects';
 import About from './About';
 import Contact from './Contact';
@@ -11,12 +11,13 @@ class Home extends Component {
     return(
       <div>
       <div className="wrapper">
-        <Header />
-          <h1>Hi, I'm Laize<br /> and I'm a Web Designer.</h1>
+          <Sidebar />
+          <h1>Hi, I'm Laize<br /> and I'm a Web Developer.</h1>
           <p>Based in Sydney, I’m an ex-lawyer that got passionate about coding and design.</p>
           <p>I believe a great website, accessible and focused in the user experience will contribute for your business success.</p>
-          <p>So, let’s work together and create a flawless web experience for your clients? Click the button!</p>
-        <Button />  
+          <p>So, let’s work together and create a flawless web experience for your clients? </p>
+          <p>Scrow down!</p>
+        <Arrow />  
       </div>
         <Projects />
         <About />

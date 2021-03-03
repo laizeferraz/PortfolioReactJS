@@ -7,26 +7,27 @@ const ContactForm = (props) => {
       <FormGroup row>
         <Label for="name" sm={2}>Name</Label>
         <Col sm={10}>
-          <Input type="text" name="Name" id="exampleName" placeholder="Full Name" />
+          <Input type="text" name="Name" id="name" placeholder="Full Name" />
         </Col>
       </FormGroup>
       <FormGroup row>
-        <Label for="exampleEmail" sm={2}>Email</Label>
+        <Label for="email" sm={2}>Email</Label>
         <Col sm={10}>
-          <Input type="email" name="email" id="exampleEmail" placeholder="Your Email" />
+          <Input type="email" name="email" id="email" placeholder="Your Email" />
         </Col>
       </FormGroup>
       <FormGroup row>
         <Label for="exampleText" sm={2}>Text Area</Label>
         <Col sm={10}>
-          <Input type="textarea" name="text" id="exampleText" />
+          <Input type="textarea" name="text" id="text" placeholder="Write something" />
         </Col>
       </FormGroup>
       <FormGroup check row>
-        <Col sm={{ size: 10, offset: 2 }}>
+        <Col sm={{ size: 2, offset: 10 }}>
           <Button>Submit</Button>
         </Col>
       </FormGroup>
+         
     </Form>
   );
 }
