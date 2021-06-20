@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import resume from "../images/resume.pdf";
-import cvIcon from '../images/cv-icon.svg';
+import cvIcon from '../images/cv.svg';
 import linkedInIcon from '../images/linkedin-icon.svg';
 import githubIcon from '../images/github-icon.svg';
 

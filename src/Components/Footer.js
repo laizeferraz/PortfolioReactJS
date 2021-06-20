@@ -1,18 +1,17 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import resume from "../images/resume.pdf";
+import privacy from '../images/privacy.svg'
 
 class Footer extends Component {
   render(){
     return(
-      <div className="footer__background footer-flex">
-      <div>
-        <ul className="menu-footer-inline">
-            <li><a href={resume} target="_blank" rel="noopener noreferrer">Resume</a></li>
-            <li><Link to="/Privacy">Privacy</Link></li>
-        </ul> 
+      <div className="footer__background footer-layout">
+      <div className="footer-flex">
+        <ul className="menu-footer-inline footer-icon">
+            <li><Link to="/Privacy"><img src={privacy} alt='Pricacy Policy'/></Link></li>
+        </ul>
       </div>  
-      <div>
+      <div className="footer-center">
         <span>All rights reserved. &copy; Laize Ferraz</span>
       </div>              
       </div>
